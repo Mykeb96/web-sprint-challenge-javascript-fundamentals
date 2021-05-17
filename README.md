@@ -29,13 +29,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach is a loop that applys a function to each item in an array. map creates a new array which is the main difference and then calling a function on every item in the array.
+
 2. Explain the difference between a callback and a higher order function.
+
+higher order function returns a function while a callback function just allows a function to call another function as a parameter.
 
 3. Can you explain what a closure is and how you used it in the counter function? 
 
+A closure is when a variable has to look outwards of their scope to find context and form a closure.
+
 4. Describe the four principles of the 'this' keyword.
 
+Global binding. In this context, this is referring to the console.
+Implicit binding. The context for this would be the object before the ".method".
+New binding. This creates a new instance of an object from a constructor and the context would be the constructor.
+Explicit binding. Through using "call", and "apply" you can explicitly define "this"
+
 5. Why do we need super() in an extended class?
+
+to access and call functions on a parent
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
